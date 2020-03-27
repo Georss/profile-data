@@ -5,7 +5,6 @@ import InfoProfile from './components/InfoProfile/infoProfile';
 import './App.css';
 
 function App() {
-    
     return (
         <div className="App">
             <ProfilForm />
