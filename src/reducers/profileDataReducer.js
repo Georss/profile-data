@@ -2,15 +2,15 @@ const initialState = {
     firstName: '',
     lastName: '',
     email: '',
-}
+};
 
 const updateform = (state = initialState, action) => {
-    switch(action.type) {
+    switch (action.type) {
         case 'UPDATE_DATA_FORM':
-            return action.props
+            return action.props;
         default:
             return state;
     }
-}
+};
 
 export default updateform;
